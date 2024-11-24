@@ -266,6 +266,10 @@ article ul li{
 
 /* -- MODE RESPONSIVE -----------------------------------------------------------*/
 @media (max-width: 768px) {
+  body {
+    background-repeat: repeat;
+  }
+  
   header {
     justify-content: flex-start; /* L'icône est alignée à gauche */
   }

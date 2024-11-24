@@ -75,3 +75,26 @@ body {
   .side-nav.open {
     left: 0; /* Ouvre le menu en position droite */
   }
+  
+  
+@media (max-width: 768px) {
+    header {
+      justify-content: flex-start; /* L'icône est alignée à gauche */
+    }
+  
+    .side-nav {
+      left: -250px; /* Cache le menu à gauche en mode mobile */
+      right: auto; /* Désactive la position à droite */
+    }
+  
+    .side-nav.open {
+      left: 0; /* Ouvre le menu à gauche */
+      right: auto; /* Assure que le menu s'ouvre à gauche */
+    }
+
+    .button {
+        width: 100%; /* Le bouton prend toute la largeur */
+        text-align: center;
+        font-size: 14px; /* Réduit la taille du texte */
+    }
+}

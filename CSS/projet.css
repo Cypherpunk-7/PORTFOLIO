@@ -76,8 +76,88 @@ body {
     left: 0; /* Ouvre le menu en position droite */
   }
   
+  /* -- description */
+  .projet {
+    display:block;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; /* Espacement entre le titre et l'image */
+    padding: 50px 20px; /* Espacement intérieur de la section */
+    background-color: rgba(255, 255, 255, 0); /* Couleur de fond semi-transparente */
+    backdrop-filter: blur(1px); /* Applique le flou à l'arrière-plan */
+    border-radius: 0px; /* Arrondi des bords de la section */
+    margin: 100px auto 0; /* Décale la section vers le bas */
+    text-align: center; /* Centrer le texte dans la section */
+    max-width: 1200px; /* Limite la largeur de la section */
+    z-index: 1;
+  }
+
+  .titre {
+    font-size: 40px;
+    color: white;
+    margin: 10 px;
+  }
   
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 200px; /* Arrondi des bords de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre autour de l'image */
+  }
+ 
+  .presentation h2{
+    font-size: 40px ;
+  }
+  
+  .description h3{
+    font-size: 25px;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Crée une grille responsive avec des colonnes */
+    gap: 50px; /* Espacement entre les éléments */
+  }
+  
+  /* Style des groupes de descritpion */
+  .description-groupe {
+    background-color: rgba(44, 44, 44, 0.604); /* Couleur de fond semi-transparente */
+    backdrop-filter: blur(20px); /* Applique le flou à l'arrière-plan */
+    padding: 10px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(6, 143, 240, 0.85); /* Ombre légère */
+  
+  }
+  
+  /* Style des titres de chaque groupe */
+  .description-groupe h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(3, 234, 241);
+  }
+  
+  /* Style des listes */
+  .description-groupe ul {
+    list-style-type: none;;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .description-groupe ul li {
+    font-size: 16px;
+    margin: 20px 0;
+    color: white;
+    text-align: left;
+  }
+  
+
 @media (max-width: 768px) {
+    body {
+        background-repeat: repeat;
+      }
+      
     header {
       justify-content: flex-start; /* L'icône est alignée à gauche */
     }
@@ -91,6 +171,10 @@ body {
       left: 0; /* Ouvre le menu à gauche */
       right: auto; /* Assure que le menu s'ouvre à gauche */
     }
+
+    .description {
+        grid-template-columns: 1fr; /* Affiche une seule colonne */
+      }
 
     .button {
         width: 100%; /* Le bouton prend toute la largeur */

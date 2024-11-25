@@ -259,9 +259,52 @@ article ul li{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
 }
 
+/* footer contact */
+footer {
+  background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+}
 
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* S'assure que le contenu s'adapte en responsive */
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 
+.contact,
+.social {
+  text-align: left;
+}
 
+.contact h3,
+.social h3 {
+  color: rgb(0, 149, 255); /* Couleur du titre */
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: rgba(0, 149, 255, 0.8); /* Couleur des liens */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: rgba(0, 149, 255, 1); /* Changement de couleur au survol */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7); /* Couleur légèrement atténuée */
+}
 
 
 /* -- MODE RESPONSIVE -----------------------------------------------------------*/

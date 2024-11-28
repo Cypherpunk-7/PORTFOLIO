@@ -20,8 +20,8 @@ require_once(__DIR__ . '/variable.php');
     <!-- Menu latéral -->
 <nav class="side-nav" id="side-nav">
     <ul class="links">
-        <li><a href="/index.html"><strong>HOME</strong></a></li>
-        <li><a href="Porjets.php"><strong>PROJETS</strong></a></li>
+        <li><a href="index.html"><strong>HOME</strong></a></li>
+        <li><a href="Projets.php"><strong>PROJETS</strong></a></li>
     </ul>
 </nav>
     <div class="projet">
@@ -62,5 +62,6 @@ require_once(__DIR__ . '/variable.php');
         </section>
         <?php endforeach; ?> <!-- Vous devez fermer la boucle PHP ici -->
     </div>
+    <script src="JS/main.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@ require_once(__DIR__ . '/variable.php');
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <title>Portfolio</title>
-        <link rel="stylesheet" href="CSS/main.css"/>
+        <link rel="stylesheet" href="../CSS/main.css"/>
     </head>
     <body>
         <header>

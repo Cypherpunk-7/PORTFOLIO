@@ -257,9 +257,9 @@ article ul li{
       grid-template-columns: 1fr; /* Affiche une seule colonne */
     }
     .button {
-        width: 100%; /* Le bouton prend toute la largeur */
+        width: 80%; /* Le bouton prend toute la largeur */
         text-align: center;
-        font-size: 14px; /* Réduit la taille du texte */
+        font-size: 10px; /* Réduit la taille du texte */
     }
 }
 

@@ -28,6 +28,7 @@ require_once(__DIR__ . '/variable.php');
         <h1>PRESENTATION DES PROJETS</h1> <!-- Fermeture correcte de la balise h1 -->
         <section class="presentation">
         <?php foreach($dataprojet as $projets): ?>
+            <img class="image" src="<?= $projets['image']; ?>" alt="image projet" style="max-width: 40%; height: auto;">
             <h2><?php echo $projets['name']; ?></h2>
             <br>
             <p><?php echo $projets['description']; ?></p>
@@ -60,6 +61,7 @@ require_once(__DIR__ . '/variable.php');
             <br>
             </section>
         </section>
+        <br>
         <?php endforeach; ?> <!-- Vous devez fermer la boucle PHP ici -->
     </div>
     <script src="JS/main.js"></script>

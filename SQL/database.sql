@@ -1,4 +1,4 @@
--- CREATE DATABASE dataproject; 
+CREATE DATABASE dataproject; 
 DROP TABLE projets;
 CREATE TABLE projets( 
     id int PRIMARY KEY AUTO_INCREMENT,

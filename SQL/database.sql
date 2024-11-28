@@ -3,7 +3,7 @@
 CREATE TABLE projets( 
     id int PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(20) NOT NULL,
-    description VARCHAR(250) NOT NULL,
+    description VARCHAR(1500) NOT NULL,
     fonct_1 VARCHAR(200) NOT NULL,
     fonct_2 VARCHAR(200) NOT NULL,
     fonct_3 VARCHAR(200) NOT NULL,

@@ -8,6 +8,7 @@ body {
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat; /* Empêche l'image de se répéter */
     background-attachment: fixed;
+    background-color: black;
 }
 
 header {

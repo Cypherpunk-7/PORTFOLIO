@@ -1,9 +1,9 @@
 CREATE DATABASE dataproject; 
 
 CREATE TABLE projets( 
-    id int AUTO_INCREMENT,
+    id int PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(20) NOT NULL,
-    description VARCHAR(250) NOT NULL,
+    description VARCHAR(1500) NOT NULL,
     fonct_1(200) NOT NULL,
     fonct_2(200) NOT NULL,
     fonct_3(200) NOT NULL,
